@@ -144,7 +144,6 @@ const RegistrationForm = () => {
 
           {/* Progress Bar */}
           <div className="w-full bg-[#1f1515] rounded-full h-4 relative overflow-hidden">
-            {/* Animated Gradient Bar */}
             <div
                 className="absolute inset-0 bg-gradient-to-r from-rose-500 to-rose-900 transition-all duration-500 ease-in-out"
                 style={{ width: `${((step - 1) / (totalSteps - 1)) * 100}%` }}
